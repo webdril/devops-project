@@ -1,31 +1,6 @@
-# Local .terraform directories
-**/.terraform/*
+This is a devops project that requires the deplyment of a kubernetes cluster from AWS through the use of terraform.
+The cluster has three worker nodes, and has a cloud native image registry "Harbor" installed within a namespace.
 
-# .tfstate files
-*.tfstate
-*.tfstate.*
+Argocd is deployed for CD, and work is going on to complete the deployment, secure the deployment and integrate the CD with gitactions for CI.
 
-# Crash log files
-crash.log
-
-# Ignore any .tfvars files that are generated automatically for each Terraform run. Most
-# .tfvars files are managed as part of configuration and so should be included in
-# version control.
-#
-# example.tfvars
-
-# Ignore override files as they are usually used to override resources locally and so
-# are not checked in
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-
-# Include override files you do wish to add to version control using negated pattern
-#
-# !example_override.tf
-
-# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
-# example: *tfplan*
-terraform_conf/
-harbor/
+I will update this section with other informations as i progress with the project.
